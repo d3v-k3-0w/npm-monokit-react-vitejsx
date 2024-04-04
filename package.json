@@ -1,0 +1,24 @@
+{
+	"name": "monokit-reactx-vitejs",
+	"description": "",
+	"private": true,
+	"workspaces": [
+		"packages/*"
+	],
+	"author": "dev-kei-ow",
+	"license": "ISC",
+	"scripts": {
+		"add:01": "npm install --workspace=01-notes-app",
+		"unin:01": "npm uninstall --workspace=01-notes-app",
+		"add:02": "npm install --workspace=02-contador-redux",
+		"add:03": "npm install --workspace=03-kanbanboard-redux",
+		"jsonserver:03": "npm run --workspace=03-kanbanboard-redux server",
+		"dev:01": "npm run --workspace=01-notes-app dev",
+		"dev:02": "npm run --workspace=02-contador-redux dev",
+		"dev:03": "npm run --workspace=03-kanbanboard-redux dev",
+		"build:01": "npm run --workspace=01-notes-app build",
+		"lint:01": "npm run --workspace=01-notes-app lint",
+		"preview:01": "npm run --workspace=01-notes-app preview",
+		"test:01": "npm run --workspace=01-notes-app test"
+	}
+}

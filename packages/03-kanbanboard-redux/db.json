@@ -1,0 +1,22 @@
+{
+  "notes": [
+    {
+      "title": "Nota 1",
+      "content": "Bienvenido al world",
+      "important": true,
+      "id": "1"
+    },
+    {
+      "title": "Nota 2",
+      "content": "Thank you",
+      "important": false,
+      "id": "2"
+    },
+    {
+      "id": "38df",
+      "title": "Tare 3",
+      "content": "ahora si",
+      "important": false
+    }
+  ]
+}
