@@ -2,49 +2,31 @@
 
 Este repositorio es un monorepo que contiene varios proyectos de React, todos construidos con ViteJS y SWC. Cada subproyecto tiene su propia configuración y conjunto de dependencias, pero todos comparten una estructura común.
 
-## Author:`Dev-Ki-Ow`
+## Autor: `dev-kei-ow`
 
-## Subproyectos
+## Instalación
 
-### 1. Notes App
+Para instalar todas las dependencias de todos los subproyectos, necesitarás [Node.js](https://nodejs.org/en/download/) y [npm](https://www.npmjs.com/get-npm) instalados en tu computadora. Desde tu línea de comandos:
 
-Una aplicación de notas construida con React, MUI, Emotion y Axios.
+```bash
+# Clona este repositorio
+$ git clone https://github.com/your-username/monokit-reactx-vitejs
 
-#### Dependencias
+# Entra al repositorio
+$ cd monokit-reactx-vitejs
 
-- `@emotion/react` y `@emotion/styled`: Librerías para escribir CSS en JavaScript, proporcionando poderosas y predecibles primitivas de estilo.
-- `@mui/material`: Una biblioteca de componentes de UI para React que implementa el diseño Material.
-- `axios`: Un cliente HTTP basado en promesas para el navegador y Node.js, utilizado para realizar solicitudes a APIs.
-- `react` y `react-dom`: Bibliotecas de JavaScript para construir interfaces de usuario.
-- `react-router-dom`: La versión de React Router para aplicaciones web.
-
-### 2. Contador Redux Clásico
-
-Un contador simple construido con React y Redux.
-
-#### Dependencias
-
-- `react` y `react-dom`: Bibliotecas de JavaScript para construir interfaces de usuario.
-- `react-redux` y `redux`: Redux es una biblioteca de JavaScript para gestionar el estado de la aplicación. React Redux es la biblioteca oficial de enlaces de React para Redux.
-
-### 3. Kanban Board Redux
-
-Un tablero Kanban construido con React, Redux y Axios.
-
-#### Dependencias
-
-- `axios`: Un cliente HTTP basado en promesas para el navegador y Node.js, utilizado para realizar solicitudes a APIs.
-- `react` y `react-dom`: Bibliotecas de JavaScript para construir interfaces de usuario.
-- `react-redux`, `redux` y `redux-thunk`: Redux es una biblioteca de JavaScript para gestionar el estado de la aplicación. React Redux es la biblioteca oficial de enlaces de React para Redux. Redux Thunk es un middleware de Redux que permite escribir creadores de acciones asíncronas.
+# Instala las dependencias de todos los subproyectos
+$ npm install
+```
 
 ## Scripts de la raíz
 
 Los scripts de la raíz permiten instalar dependencias, iniciar el servidor de desarrollo, construir el proyecto y ejecutar otras tareas para cada subproyecto.
 
-- `add:01`, `add:02`, `add:03`: Instala las dependencias para el subproyecto correspondiente.
-- `unin:01`: Desinstala las dependencias del subproyecto 1.
+- `add:01`, `add:02`, `add:03`, `add:04`: Instala las dependencias para el subproyecto correspondiente.
+- `unin:01`, `unin:04`: Desinstala las dependencias del subproyecto correspondiente.
 - `jsonserver:03`: Inicia el servidor JSON para el subproyecto 3.
-- `dev:01`, `dev:02`, `dev:03`: Inicia el servidor de desarrollo para el subproyecto correspondiente.
+- `Dev:01`, `Dev:02`, `Dev:03`, `Dev:04`: Inicia el servidor de desarrollo para el subproyecto correspondiente.
 - `build:01`: Construye el subproyecto 1 para producción.
 - `lint:01`: Ejecuta ESLint en el subproyecto 1.
 - `preview:01`: Inicia el servidor de vista previa para el subproyecto 1.

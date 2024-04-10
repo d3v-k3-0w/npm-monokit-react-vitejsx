@@ -1,8 +1,13 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 1. Notes App
 
-Currently, two official plugins are available:
+Una aplicación de notas construida con React, MUI, Emotion y Axios.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### Dependencias
+
+- `@emotion/react` y `@emotion/styled`: Librerías para escribir CSS en JavaScript, proporcionando poderosas y predecibles primitivas de estilo.
+- `@mui/material`: Una biblioteca de componentes de UI para React que implementa el diseño Material.
+- `axios`: Un cliente HTTP basado en promesas para el navegador y Node.js, utilizado para realizar solicitudes a APIs.
+- `react` y `react-dom`: Bibliotecas de JavaScript para construir interfaces de usuario.
+- `react-router-dom`: La versión de React Router para aplicaciones web.
