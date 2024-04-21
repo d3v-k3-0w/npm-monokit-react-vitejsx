@@ -1,0 +1,72 @@
+.homeTitle {
+	margin: 0.5rem 0;
+}
+
+.categoriasGifList {
+	display: flex;
+	justify-content: center;
+	overflow-x: auto;
+	gap: 2px; /* Añade espacio entre los elementos de la lista */
+	padding: 0;
+	margin: 0;
+	list-style: none; /* Remueve los 'bullets' de la lista */
+}
+
+.categoriasGifList li {
+	padding: 3px;
+	border-radius: 5px;
+	background-color: var(--gray);
+}
+
+.categoriasGifList li:hover {
+	padding: 3px;
+	border-radius: 5px;
+	transition: all 0.25s;
+	background-color: var(--cod-gray);
+}
+
+.categoriasGifList a {
+	color: var(--concrete);
+	background-color: var(--cod-gray);
+}
+
+.categoriasGifList a:hover {
+	color: var(--cornflower-blue);
+	background-color: var(--cod-gray);
+}
+
+.homeWrapper {
+	width: 100%;
+	max-width: 90rem;
+	margin: 0 auto;
+	padding: 0 0.5em;
+}
+
+.homeMain {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.homeResults {
+	flex-shrink: 2;
+	width: 100%;
+}
+
+.popularGifs {
+	margin-bottom: 25px;
+	width: 100%;
+}
+
+@media screen and (min-width: 55rem) {
+	.App-main {
+		flex-direction: initial;
+	}
+
+	.popularGifs {
+		position: sticky;
+		top: var(--search-size-mx-h);
+		width: 40%;
+		max-width: 300px;
+	}
+}

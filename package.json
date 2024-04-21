@@ -9,20 +9,10 @@
 	"license": "ISC",
 	"scripts": {
 		"Dev:01": "npm run --workspace=01-notes-app dev",
-		"add:01": "npm install --workspace=01-notes-app",
-		"unin:01": "npm uninstall --workspace=01-notes-app",
-		"build:01": "npm run --workspace=01-notes-app build",
-		"lint:01": "npm run --workspace=01-notes-app lint",
-		"preview:01": "npm run --workspace=01-notes-app preview",
-		"test:01": "npm run --workspace=01-notes-app test",
 		"Dev:02": "npm run --workspace=02-contador-redux dev",
-		"add:02": "npm install --workspace=02-contador-redux",
 		"Dev:03": "npm run --workspace=03-notes-redux dev",
-		"add:03": "npm install --workspace=03-notes-redux",
-		"jsonserver:03": "npm run --workspace=03-notes-redux server",
 		"Dev:04": "npm run --workspace=04-movix dev",
-		"add:04": "npm install --workspace=04-movix",
-		"unin:04": "npm uninstall --workspace=04-movix",
-		"Dev:05": "npm run --workspace=05-airbnb dev"
+		"Dev:05": "npm run --workspace=05-airbnb dev",
+		"Dev:06": "npm run --workspace=06-giffing dev"
 	}
 }

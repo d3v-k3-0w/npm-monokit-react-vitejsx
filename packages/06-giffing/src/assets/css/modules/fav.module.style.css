@@ -1,0 +1,21 @@
+.favGif {
+	background: rgba(255, 172, 172, 0.3);
+	border: 0;
+	border-radius: 100px;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	transition: all 0.3s ease;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.favGif:hover {
+	background: rgba(22, 32, 214, 0.8);
+}
+
+.favGif span {
+	display: block;
+	width: 20px;
+}

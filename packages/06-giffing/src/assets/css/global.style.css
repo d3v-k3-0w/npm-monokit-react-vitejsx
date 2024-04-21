@@ -1,0 +1,109 @@
+:root {
+	font-family: 'Jetbrains mono', monospace;
+	line-height: 1.5;
+	font-weight: 400;
+
+	--mine-shaft: #242424;
+	--black: #000;
+	--gray: rgba(255, 255, 255, 0.7);
+	--mine-shaft-light: rgba(0, 0, 0, 0.5);
+	--concrete: #f2f2f2;
+	--cornflower-blue: #646cff;
+	--cornflower-blue-light: #747bff;
+	--royal-blue: #535bf2;
+	--cod-gray: #1a1a1a;
+	--cloud-burst: #213547;
+
+	--fz: 16px;
+	--theme--contrast-0: #121212;
+	--theme-body-bg: #18061f;
+	--theme-body-txt: #f3f3f3;
+	--theme-body-txt-2: #000;
+	--search-size-mx-h: 3rem;
+	--zIndex-header: 20;
+	--zIndex-component: 5;
+	--brand-color_1: #00ff99;
+	--brand-color_2: #00ccff;
+	--brand-color_3: #9933ff;
+	--brand-color_4: tomato;
+	--brand-color_5: #fff35c;
+	--brand-color_6: #8429de;
+
+	color-scheme: light dark;
+	color: var(--concrete);
+	background-color: var(--mine-shaft);
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+	width: 100%;
+	text-align: center;
+	margin: 0;
+}
+
+html {
+	font-size: 14px;
+}
+
+a {
+	font-weight: 500;
+	color: var(--cornflower-blue);
+	text-decoration: inherit;
+}
+a:hover {
+	color: var(--royal-blue);
+}
+
+body {
+	margin: 0;
+	display: flex;
+	place-items: center;
+	min-width: 320px;
+	min-height: 100vh;
+}
+
+h1 {
+	font-size: 3.2em;
+	line-height: 1.1;
+}
+
+button {
+	border-radius: 5px;
+	border: 1px solid transparent;
+	padding: 0.6em 1.2em;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: inherit;
+	background-color: var(--cod-gray);
+	cursor: pointer;
+	transition: border-color 0.25s;
+}
+button:hover {
+	border-color: var(--cornflower-blue);
+}
+button:focus,
+button:focus-visible {
+	outline: 4px auto -webkit-focus-ring-color;
+}
+
+button[disabled] {
+	opacity: 0.3;
+	pointer-events: none;
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		color: var(--cloud-burst);
+		background-color: var(--concrete);
+	}
+	a:hover {
+		color: var(--cornflower-blue-light);
+	}
+	button {
+		background-color: var(--concrete);
+	}
+}

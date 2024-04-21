@@ -1,0 +1,20 @@
+.card {
+	padding: 2em;
+}
+
+.read-the-docs {
+	color: #888;
+}
+
+.App {
+	text-align: center;
+}
+
+.appContent {
+	display: flex;
+	flex-direction: column;
+	width: 100%; /* te aseguras de que el contenido ocupe todo el ancho de la página */
+	min-height: 100vh; /* ocupar el 100 de altura de la pagina */
+	padding: 16px;
+	box-sizing: border-box; /* no se suman los paddins, border , margin a la anchura del contenido*/
+}
